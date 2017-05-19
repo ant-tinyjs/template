@@ -5,13 +5,13 @@ module.exports = {
   // 生成的资源配置文件
   resourceName: 'Resource.js',
 
-  //tileset: [{
-  //    fold: 'template/res/images/animals',//默认为：{appFold}/res/images，自定义如：template/res/images/animals
-  //    name: '',//默认为：tileset
-  //    trim: false,//是否移除图片周边的透明空白，默认为：false
-  //    padding: 2,//图片与图片的间距，默认为：0
-  //    outFold: ''//默认为：{appFold}/res/images
-  //}, {
-  //    fold: 'template/res/images/enemies'
-  //}]
+  // tileset: [{
+  //   fold: 'res/images/animals',//默认为：{appFold}/res/images，自定义如：res/images/animals
+  //   name: '',//默认为：tileset
+  //   trim: false,//是否移除图片周边的透明空白，默认为：false
+  //   padding: 2,//图片与图片的间距，默认为：0
+  //   outFold: ''//默认为：{appFold}/res/images
+  // }, {
+  //   fold: 'res/images/enemies',
+  // }],
 };
