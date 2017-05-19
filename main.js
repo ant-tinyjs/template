@@ -2,7 +2,10 @@
 (function () {
   var config = {
     showFPS: true,
-    dpi: 1.5,
+    renderOptions: {
+      antialias: true,
+      backgroundColor: 0x2a3145,
+    },
   };
   Tiny.app = new Tiny.Application(config);
 

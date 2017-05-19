@@ -4,6 +4,8 @@ var StartLayer = function () {
   var sprite = Tiny.Sprite.fromImage(RESOURCES['s_Tiny.js_png']);
   // 设置精灵的中心点
   sprite.setPivot(0.5);
+  // 设置精灵的缩放
+  sprite.setScale(0.5);
   // 设置精灵相对画布的位置，此处设置居中
   sprite.setPosition(Tiny.WIN_SIZE.width / 2, Tiny.WIN_SIZE.height / 2);
 
@@ -11,7 +13,7 @@ var StartLayer = function () {
   var rotateTo360Action = Tiny.RotateTo(2000, {rotation: Tiny.deg2radian(360)});
   // 执行 action RepeatForever
   sprite.runAction(Tiny.RepeatForever(rotateTo360Action));
-  
+
   // 设置精灵可交互的
   sprite.setEventEnabled(true);
   // 绑定 tap 和 mouseup 事件
