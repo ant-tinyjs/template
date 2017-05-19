@@ -1,0 +1,10 @@
+{
+  "name": "Tiny.js",
+  "version": "0.0.0",
+  "description": "The Tiny engine is an HTML5 game engine designed to be lightweight and concise JavaScript-friendly syntax, it will only for mobile.",
+  "devDependencies": {
+    "@alipay/tiny": "^0.2.1",
+    "gulp": "^3.9.0",
+    "spritesheet-js": "~1.1.4"
+  }
+}
