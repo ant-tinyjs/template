@@ -4,7 +4,7 @@
   "description": "<%=description%>",
   "author": "<%=author%>",
   "scripts": {
-    "start": "node_modules/.bin/webpack-dev-server --colors --inline --hot --host 0.0.0.0 --port 8017"
+    "start": "node_modules/.bin/webpack-dev-server --colors --inline --quiet --hot --host 0.0.0.0 --port 8017"
   },
   "devDependencies": {
     "webpack": "^2.5.1",

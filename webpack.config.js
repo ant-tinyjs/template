@@ -1,13 +1,11 @@
 const path = require('path');
 
-const distDir = path.resolve(__dirname, 'dist');
-
 const webpackConfigs = {
   entry: {
-    'main': './main.js',
+    app: ['./main.js'],
   },
   output: {
-    path: distDir,
+    path: path.resolve(__dirname, 'dist'),
     publicPath: '/dist',
     filename: '[name].js',
   },
