@@ -1,9 +1,4 @@
 module.exports = {
-  // 本地 server 配置
-  server: {
-    port: 8017,
-  },
-
   // 资源文件所在项目目录，如果就在根目录，此参数给空即可，如果不是，格式如：“alipay/tiny/games/”
   appFold: '',
 
