@@ -6,8 +6,8 @@
 
 ## 命令
 
-- `tnpm install`: 安装依赖
-- `tnpm run start`: 本地服务，默认端口：8017
+- `npm install`: 安装依赖
+- `npm run start`: 本地服务，默认端口：8017
 
 ## 关于 Tiny.js
 

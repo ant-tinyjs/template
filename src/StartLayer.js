@@ -17,9 +17,9 @@ var StartLayer = function () {
   // 设置精灵可交互的
   sprite.setEventEnabled(true);
   // 绑定 tap 和 mouseup 事件
-  sprite.tap = sprite.mouseup = function () {
+  sprite.on('pointerdown', function () {
     console.log('taped!');
-  };
+  });
   // 将精灵添加到场景中
   this.addChild(sprite);
 };
