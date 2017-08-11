@@ -18,12 +18,19 @@ html, body {height: 100%}
 .bar i {display:block;width:0;height:1vmin;background-color:#999;}
 p {margin-top:2vmin;text-align:center;color:#ddd;}
 </style>
+<link rel="stylesheet" href="res/css/orientation.css" />
 <body>
+<div id="J-TinyRotationPanel" class="orient-panel">
+  <div class="content">
+    <i class="icon"></i>
+    <div class="desc">为了获得更好的体验，请使用竖屏游戏</div>
+  </div>
+</div>
 <div class="bar">
     <i id="progress"></i>
 </div>
 <p id="percent">Loading..</p>
-<script src='https://a.alipayobjects.com/g/tiny/tiny/1.0.0/tiny.js'></script>
+<script src='https://a.alipayobjects.com/g/tiny/tiny/1.1.0/tiny.js'></script>
 <script src='src/Resource.js'></script>
 <script src='src/StartLayer.js'></script>
 <script src='main.js'></script>

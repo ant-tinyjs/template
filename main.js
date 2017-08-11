@@ -46,4 +46,8 @@
     },
   };
   main.init();
+
+  window.addEventListener('resize', function () {
+    Tiny.app.resize();
+  }, false);
 })();
