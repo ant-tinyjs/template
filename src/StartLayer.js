@@ -1,7 +1,7 @@
 var StartLayer = function () {
   Tiny.Container.call(this);
   // 通过 fromImage 实例化精灵
-  var sprite = Tiny.Sprite.fromImage(RESOURCES['s_Tiny.js_png']);
+  var sprite = Tiny.Sprite.fromImage(RESOURCES['TinyjsPNG']);
   // 设置精灵的中心点
   sprite.setAnchor(0.5);
   // 设置精灵的缩放
