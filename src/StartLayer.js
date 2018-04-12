@@ -1,7 +1,7 @@
 var StartLayer = function () {
   Tiny.Container.call(this);
   // 通过 fromImage 实例化精灵
-  var sprite = Tiny.Sprite.fromImage(RESOURCES['TinyjsPNG']);
+  var sprite = Tiny.Sprite.fromImage(RESOURCES[ 'TinyjsPNG' ]);
   // 设置精灵的中心点
   sprite.setAnchor(0.5);
   // 设置精灵的缩放
@@ -10,7 +10,7 @@ var StartLayer = function () {
   sprite.setPosition(Tiny.WIN_SIZE.width / 2, Tiny.WIN_SIZE.height / 2);
 
   // 新建 action
-  var rotateTo360Action = Tiny.RotateTo(2000, {rotation: Tiny.deg2radian(360)});
+  var rotateTo360Action = Tiny.RotateTo(2000, { rotation: Tiny.deg2radian(360) });
   // 执行 action RepeatForever
   sprite.runAction(Tiny.RepeatForever(rotateTo360Action));
 

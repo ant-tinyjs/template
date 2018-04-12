@@ -4,7 +4,6 @@
     showFPS: true,
     renderType: Tiny.RENDERER_TYPE.CANVAS,
     renderOptions: {
-      antialias: true,
       backgroundColor: 0x2a3145,
     },
   };
@@ -19,7 +18,7 @@
     resourceLoad: function () {
       var resources = [];
       for (var key in RESOURCES) {
-        resources.push(RESOURCES[key]);
+        resources.push(RESOURCES[ key ]);
       }
       var progress = document.getElementById('progress');
       var percent = document.getElementById('percent');
@@ -47,8 +46,4 @@
     },
   };
   main.init();
-
-  window.addEventListener('resize', function () {
-    Tiny.app.resize();
-  }, false);
 })();

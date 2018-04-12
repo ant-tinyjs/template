@@ -2,7 +2,7 @@
 
 > <%=description%>
 
-![](http://tfs.alipayobjects.com/images/rmsweb/T1nqFhXdJcXXXXXXXX.png_120x120)
+![](https://zos.alipayobjects.com/rmsportal/nJBojwdMJfUqpCWvwyoA.png@120w)
 
 ## 命令
 
