@@ -2,7 +2,7 @@
 (function () {
   var config = {
     showFPS: true,
-    renderType: Tiny.RENDERER_TYPE.CANVAS,
+    debug: true,
     renderOptions: {
       backgroundColor: 0x2a3145,
     },
